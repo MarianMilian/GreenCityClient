@@ -53,6 +53,7 @@ export class PlaceService {
   getPlacesByStatus(status: string, paginationSettings: string): Observable<PlacePageableDto> {
     return this.http.get<PlacePageableDto>(`${this.baseUrl}${status}` + paginationSettings);
   }
+
   updatePlaceStatus(placeStatus: PlaceStatus) {
     return this.http.patch<PlaceStatus>(`${this.baseUrl}status/`, placeStatus);
   }

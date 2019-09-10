@@ -54,7 +54,7 @@ import {MatTableModule} from '@angular/material';
     HttpClientModule,
     FormsModule,
     AgmCoreModule.forRoot({
-      apiKey: '',
+      apiKey: 'AIzaSyDnL6GdV-FWidi8Uh2uDjIu2uRGQtgZOYc',
       libraries: ['places']
     }),
     Ng2SearchPipeModule,
