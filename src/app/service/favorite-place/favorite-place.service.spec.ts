@@ -1,6 +1,6 @@
-import { TestBed } from '@angular/core/testing';
+import {TestBed} from '@angular/core/testing';
 
-import { FavoritePlaceService } from './favorite-place.service';
+import {FavoritePlaceService} from './favorite-place.service';
 
 describe('FavoritePlaceService', () => {
   beforeEach(() => TestBed.configureTestingModule({}));
